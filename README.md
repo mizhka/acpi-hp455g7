@@ -8,7 +8,7 @@ Here is patched version with slight fix:
  * my.aml
  * my.asl
  
-The subtle is increase of array for thermal zone to avoid error like:
+The subtle is to expand arrays for thermal zone to avoid error like:
 ```
 [1273] Firmware Error (ACPI): AE_AML_PACKAGE_LIMIT, Index (0x000000005) is beyond end of object (length 0x5) (20210930/exoparg2-569)
 [1273] ACPI Error: Aborting method \134_TZ.GTTP due to previous error (AE_AML_PACKAGE_LIMIT) (20210930/psparse-689)
